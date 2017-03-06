@@ -227,4 +227,5 @@ end
 
 local wtap_encap = DissectorTable.get("wtap_encap")
 -- 223 has now been assigned to DLT, see http://seclists.org/tcpdump/2009/q2/180
-wtap_encap:add(wtap.USER0,wihart)
+-- wtap_encap:add(wtap.USER0,wihart)
+wtap_encap:add(223,wihart)
