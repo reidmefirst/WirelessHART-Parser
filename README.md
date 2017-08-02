@@ -8,4 +8,6 @@ Installation:
 
 Copy wirelesshart.lua to your ~/.wireshark/plugins/ directory
 
+Notes:
 
+hart-test.pcap was made by sniffing wirelesshart beacons from a Linear Technologies WirelessHART development kit's base station in default configuration.
